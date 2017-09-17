@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name          = "rumember"
   s.version       = "1.1.0"
   s.platform      = Gem::Platform::RUBY
-  s.authors       = ["Tim Pope"]
+  s.authors       = ["Tim Pope", "Daniel Barrows"]
   s.email         = ["code@tpope.n"+'et']
   s.homepage      = "http://github.com/tpope/rumember"
   s.summary       = "Remember The Milk Ruby API and command line client"
@@ -17,4 +17,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency("rake", ["< 11"])
   s.add_development_dependency("rspec", ["~> 2"])
+  s.add_development_dependency("bundler") # version uncertain
+  s.add_development_dependency("rspec-its") # version uncertain
 end
